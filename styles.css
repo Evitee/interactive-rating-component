@@ -35,6 +35,10 @@ body {
     padding: 20px;
     border-radius: 10px;
 }
+.rating {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 
 .star {
     background-color: var(--very-dark-blue);
@@ -62,7 +66,7 @@ p {
 
 }
 
-.ratingnr li {
+.num {
     list-style-type: none; 
     background-color: var(--very-dark-blue);
     border-radius: 50%; 
@@ -72,7 +76,7 @@ p {
     line-height: 45px;
 }
 
-.ratingnr li:hover{
+.num:hover{
     background-color: var(--light-grey);
     color:var(--white);
     cursor: pointer;
@@ -84,7 +88,7 @@ p {
     cursor: pointer;
 }
 
-.btn {
+.b {
     width: 300px;
     height: 45px;
     border-radius: 20px;
@@ -97,7 +101,7 @@ p {
     border: none;
 }
 
-.btn:hover { 
+.b:hover { 
     cursor: pointer;
     background-color: var(--white);
     color: var(--orange);
